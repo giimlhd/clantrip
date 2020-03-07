@@ -1,0 +1,140 @@
+/*
+* @Author: Administrator
+* @Date:   2020-02-14 17:42:03
+* @Last Modified by:   Administrator
+* @Last Modified time: 2020-02-21 17:09:59
+*/
+.sell .cellRow{
+	padding: 20px 0px;
+	text-align: right;
+}
+.sell .cellRow:nth-child(2n+1){
+	background: #f8fbff;
+	text-align: left;
+}
+.sell img{
+	max-width: 100%;
+}
+.pull p:first-child{
+	font-size: 16px;
+	position: relative;
+	color: #0ba1e4;
+}
+.pull p:first-child::after,.bg p:first-child::after{
+	content: '';
+	position: absolute;
+	bottom: -4px;
+	width: 80px;
+	height: 1.5px;
+	background:#0ba1e4;
+}
+.cellRow:nth-child(2n) p:first-child::after{
+	right: 0;
+}
+.cellRow:nth-child(2n+1) p:first-child::after{
+	left: 0;
+}
+.pull p:nth-child(2){
+	color:#919191;
+	font-size: 12px;
+	margin-top: 13px;
+}
+.heng{
+	padding: 20px 0;
+	background:#0ba1e4;
+	color:#fff;
+	text-align: center;
+	font-size: 12px;
+}
+.heng p{
+	margin: 0;
+}
+.bg{
+	padding: 20px 0;
+	background-image: url('../img/urgent_chat.jpg');
+	background-position: -600px -80px;
+	background-repeat: no-repeat;
+}
+.bg b{
+	font-size: 36px;
+	font-weight: 300;
+}
+.bg p:first-child{
+	position: relative;
+}
+.bg p:first-child::after{
+	left: 0;
+}
+.bg small{
+	color: #919191;
+}
+.bg li{
+	line-height: 24px;
+	font-size: 12px;
+}
+.bg a{
+	font-size: 18px;
+	padding: 10px 16px;
+	line-height: 50px;
+	border-radius: 6px;
+	text-decoration: none;
+}
+.bg a:first-child{
+	border: 1px solid #2e6da4;
+	color: #fff;
+	background: #2e6da4;
+}
+.bg a:nth-child(2){
+	color: #333;
+	border: 1px solid #ccc;
+}
+@media (min-width:768px) {
+	.pull span{
+		display: inline-block;
+		vertical-align: -125px;
+	}
+	.pull p:first-child{
+		font-size: 30px;
+	}
+	.pull p:nth-child(2){
+		font-size: 20px;
+	}
+	.sell .cellRow{
+		padding:50px 0px;
+	}
+	.heng{
+		padding: 25px 0;
+		font-size: 18px;
+	}
+	.bg{
+		padding: 50px 0;
+		background-position: -400px 0;
+	}
+	.bg small{
+		font-size: 20px;
+	}
+	.bg li{
+		font-size: 18px;
+		line-height: 36px;
+	}
+
+}
+@media (min-width: 992px) {
+	.container{
+		width: 970px;
+	}
+	.heng{
+		font-size: 24px;
+	}
+	.bg{
+		background-position: center top;
+	}
+	.encourage .container{
+		width: 1170px;
+	}
+}
+@media (min-width:1200px) {
+	.header .container{
+		width: 1170px;
+	}
+}

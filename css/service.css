@@ -1,0 +1,104 @@
+/*
+* @Author: Administrator
+* @Date:   2020-02-15 15:28:30
+* @Last Modified by:   Administrator
+* @Last Modified time: 2020-02-15 18:33:38
+*/
+.tab{
+	margin: 10px 0px;
+	box-sizing: border-box;
+	padding: 6px 10px;
+	font-size: 14px;
+	background: #f5f5f5;
+}
+.mainUl{
+	padding: 0;
+	list-style: none;
+	padding-right: 6px;
+	border-right: 1px solid #c1c1c1;
+}
+.imgRight{
+	margin-left: 134px;
+}
+.mainUl img{
+	float: left;
+	margin-right: 10px;
+}
+.mainUl p:first-child{
+	line-height: 36px;
+	font-size: 24px;
+	font-weight: 300;
+	border-bottom: 1px dashed #c1c1c1;
+}
+.mainUl b{
+	font-weight: 300;
+}
+.imgRight span{
+	margin-right: 20px;
+}
+span.star{
+	color: #f90;
+}
+span.star i{
+	font-style: normal;
+	color: #ddd;
+}
+.seeMore{
+	float: right;
+	margin-right: 0px !important;	
+}
+.seeMore a{
+	font-size: 14px;
+	padding: 8px 12px;
+	color: #f90;
+	border-radius: 6px;
+	border: 1px solid #f90;
+	text-decoration: none;
+	transition: .5s;
+}
+.seeMore a:hover{
+	background: #f90;
+	color: #fff;
+}
+.mainUl li{
+	margin-bottom: 30px;
+}
+.bian div{
+	margin-bottom: 30px;
+}
+.bTitle p:first-child{
+	font-size: 20px;
+	font-weight: 300;
+	border-bottom: 1px solid #c1c1c1;
+	padding-bottom: 8px;
+}
+.origin{
+	line-height: 32px;
+	font-size: 18px;
+	padding-left:32px;
+	background-image: url('../img/sidebar-bg.png');
+	background-repeat: no-repeat;
+	color: #f90;
+}
+.origin:nth-child(3){
+	background-position: 0 -32px;
+}
+.origin:nth-child(4){
+	background-position: 0 -64px;
+}
+.konwledge a{
+	color: #333;
+	text-decoration: none;
+}
+.konwledge a:hover{
+	color: #0ba1e4;
+}
+@media (min-width:992px) {
+	.main .container{
+		width: 970px;
+	}
+	.header .container{
+		padding: 0 15px;
+		width: 970px;
+	}
+}

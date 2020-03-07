@@ -1,0 +1,40 @@
+/*
+* @Author: Administrator
+* @Date:   2020-02-17 14:41:48
+* @Last Modified by:   Administrator
+* @Last Modified time: 2020-03-07 09:56:23
+*/
+.imgRight{
+	margin-left: 86px;
+}
+.imgRight p{
+	font-size: 12px;
+	color: #919191;
+}
+.mainUl p:first-child{
+	font-size: 16px;
+	border: none;
+	font-weight: bold;
+	color: #333;
+}
+.mainUl p:first-child b{
+	font-weight: 600;
+}
+.seeMore{
+	padding: 3px 12px;
+	border-radius: 6px;
+	color: #0ba1e4;
+	border: 1px solid #0ba1e4;
+}
+.mainUl li{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c1c1c1;
+}
+@media (min-width:768px) and (max-width:992px) {
+	.mainUl img{
+		width: 42px;
+	}
+	.imgRight{
+		margin-left: 60px;
+	}
+}

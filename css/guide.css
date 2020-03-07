@@ -1,0 +1,141 @@
+/*
+* @Author: Administrator
+* @Date:   2020-02-13 17:24:08
+* @Last Modified by:   Administrator
+* @Last Modified time: 2020-03-07 09:44:36
+*/
+body{
+	background: #f8f8f8;
+}
+li{
+	list-style: none;
+}
+.tab{
+	line-height: 30px;
+	margin: 14px 0px;
+	padding-left: 10px;
+	background: #f5f5f5;
+}
+.tab span{
+	margin-right: 3px;
+}
+.tab span:nth-child(2n){
+	color: #ccc;
+}
+.menu ul{
+	padding-left: 20px;
+	line-height: 22px;
+}
+.menuChild>p{
+	color: #0ba1e4;
+}
+.menuGroup p:hover{
+	color:#0ba1e4;
+}
+.menuWrap{
+	position: fixed;
+	top: 138px;
+	bottom: 0;
+	overflow: hidden;
+	width: 232px;
+	box-sizing: border-box;
+	border-right: 1px solid #ccc;
+	padding: 6px 0px 6px 10px;
+}
+.menu{
+	height: 100%;
+	overflow-y: auto;
+	width: 237px;
+	padding-bottom: 123%;
+}
+.secHead{
+	line-height: 45px;
+	border-bottom: 1px solid #c1c1c1;
+	margin-bottom: 10px;
+}
+.secHead b{
+	font-size: 30px;
+	font-weight: 300;
+}
+.secHead span{
+	float: right;
+	color: #777;
+}
+p.title{
+	color: #0ba1e4;
+	line-height: 66px;
+	font-size: 24px;
+}
+section ul{
+	padding: 0;
+}
+section li{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c1c1c1;
+}
+div.dec{
+	line-height: 23px;
+	text-indent: 2em;
+	margin-bottom: 10px;
+}
+.tableWrap small{
+	font-size: 14px;
+	color: #777;
+}
+.answer{
+	padding: 40px 0px;
+	position: relative;
+	z-index: 2;
+}
+.waves{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 260px;
+	z-index: -1;
+}
+.whiteWrap{
+	width: 400px;
+	margin: 0px auto;
+	color: #fff;
+	text-align: center;
+}
+.whiteWrap p{
+	padding: 4px 27px;
+}
+.whiteWrap p:first-child{
+	border-bottom: 2px solid #fff;
+}
+.whiteWrap p:nth-child(2){
+	font-size: 20px;
+}
+.whiteWrap b{
+	font-size: 36px;
+}
+.whiteWrap a{
+	line-height: 45px;
+	font-size: 24px;
+	padding: 10px 20px;
+	border-radius: 6px;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.foot{
+	position: relative;
+	z-index: 2;
+}
+.row.container{
+	margin: 0px auto;
+}
+@media (min-width:992px) {
+	.container{
+		padding: 0px 111px;
+	}
+	
+}
+@media (min-width:1200px) {
+	.col-sm-push-1{
+		left: 0;
+	}
+}

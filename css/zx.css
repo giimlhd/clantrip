@@ -1,0 +1,44 @@
+/*
+* @Author: Administrator
+* @Date:   2020-02-17 14:10:36
+* @Last Modified by:   Administrator
+* @Last Modified time: 2020-02-17 14:29:45
+*/
+.mainUl img{
+	width: 140px;
+	box-sizing: border-box;
+	padding: 5px;
+	border: 1px solid #c1c1c1;
+}
+.imgRight{
+	margin-left: 150px;
+}
+.mainUl .imgRight p{
+	font-size: 12px;
+	color: #919191;
+	margin-bottom: 4px;
+}
+.mainUl p:first-child{
+	border: none;
+	color: #0ba1e4;
+    height: 19px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    font-size: 18px;
+    line-height: 19px;
+    margin-bottom: 10px;
+}
+span.eye{
+	padding-left: 18px;
+	background-image: url('../img/glob-pic.png');
+	background-repeat: no-repeat;
+	background-position: -131px -55px;
+}
+.mainUl li{
+	padding-bottom: 18px;
+	border-bottom: 1px solid #c1c1c1;
+}

@@ -1,0 +1,101 @@
+/*
+* @Author: Administrator
+* @Date:   2020-02-13 17:27:08
+* @Last Modified by:   Administrator
+* @Last Modified time: 2020-02-17 15:27:40
+*/
+body{
+	padding-top: 82px;
+	padding-bottom: 73px;
+}
+a.logo{
+	padding: 0px 15px;
+}
+.header .navbar-nav>li>a{
+	font-size: 16px;
+}
+.header .navbar-nav>li>a:hover,.header .navbar-nav>.active>a{
+	color: #0ba1e4;
+	background-color: transparent;
+}
+.header .navbar-default{
+	background-color: rgba(255,255,255,0.9);
+    border-bottom-color:#0ba1e4;
+    border-bottom-width: 2px;
+    padding: 15px 0px;
+    z-index: 2000;
+}
+.foot{
+	padding: 20px 0px;
+	background: #363636;
+	color: #fff;
+}
+.foot ul{
+	padding: 0;
+	list-style: none;
+	line-height: 30px;
+}
+
+.foot p img{
+	width: 94px;
+}
+.con{
+	padding: 10px 0px 10px 15px;
+	border-left: 2px solid #fff;
+	height: 170px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+}
+.con.t{
+	padding-top: 0;
+	padding-bottom: 0;
+	white-space: nowrap;
+}
+.con div{
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+dl dd{
+	line-height: 40px;
+	font-size: 30px;
+}
+dl img{
+	float: left;
+	width: 40px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.fixFooter{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-top: 1px solid #0ba1e4;
+	background: #fff;
+	z-index: 3000;
+}
+.fixFooter p:first-child{
+	margin-bottom: 3px;
+	margin-top: 10px;
+}
+.fixFooter .row{
+	margin: 0;
+}
+@media (min-width:768px) {
+	dl dd{
+		font-size:22px;
+	}
+	body{
+		padding-bottom: 0;
+	}
+}
+@media (min-width:992px) {
+	.header .container{
+		padding: 0px 111px;
+	}
+}
+@media (min-width:1200px) {
+	dl dd{
+		font-size:30px;
+	}
+}
